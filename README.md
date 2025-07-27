@@ -32,6 +32,8 @@ file_extension=".flac"
 请遵守开放源代码使用协议。
 
 # DEMO 
+The following images are for demonstration purposes only and are **not included in the code repository or license**. All rights to the album artwork belong to the original artist.<br>
+以下示例图片仅用于演示，不包含在代码仓库及其许可证中。专辑封面版权归原作者所有。
 
 <table>
   <tr>
