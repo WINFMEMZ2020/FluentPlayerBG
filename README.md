@@ -16,13 +16,46 @@ PS D:\> python .\main.py
 请输入mp3文件或flac文件路径：D:\test.mp3
 ```
 
-3.The final background image `merged_image.jpg` will be created in the same folder as the Python script, while the extracted album cover will be saved alongside the original music file.<br>
-将会在与py脚本同目录下生成最终的结果`merged_image.jpg`，同时在音乐文件同目录生成提取后的专辑封面文件。
-
-# Usage Notes
+3.The final result `merged_image.jpg` and the `output` folder will be generated in the same directory as the Python script, while the extracted album cover will be saved in the same directory as the original music file.<br>
+将会在与py脚本同目录下生成最终的结果`merged_image.jpg`和`output`文件夹，同时在音乐文件同目录生成提取后的专辑封面文件。
+```powershell
+PS D:\> python .\main.py
+请输入mp3文件或flac文件路径：test.flac
+file_extension=".flac"
+封面图片已提取，并保存为：test.jpg
+处理完成！
+```
+# Usage Notes 【注意事项】
 1.This is a demonstration program that only showcases the core processing logic. You need to handle exceptions and edge cases yourself.<br>
 这只是个演示程序，只展示处理的逻辑。需要自行处理异常情况。<br>
 2.Please comply with the open source license terms.<br>
 请遵守开放源代码使用协议。
 
-# DEMO
+# DEMO 
+
+<table>
+  <tr>
+    <td><img src="01.jpg" width="240"></td>
+    <td>
+      <b>Cover of Album:</b> <br>電ǂ鯨 - よるりり (深夜盤)<br>
+    </td>
+  </tr>
+  <tr>
+    <td><img src="02.jpg" width="240"></td>
+    <td>
+      <code>ImageFilter.GaussianBlur(radius=0)</code><br>
+    </td>
+  </tr>
+  <tr>
+    <td><img src="03.jpg" width="240"></td>
+    <td>
+      <code>ImageFilter.GaussianBlur(radius=30)</code><br>
+    </td>
+  </tr>
+  <tr>
+    <td><img src="04.jpg" width="240"></td>
+    <td>
+      <code>ImageFilter.GaussianBlur(radius=40)</code><br>
+    </td>
+  </tr>
+</table>
